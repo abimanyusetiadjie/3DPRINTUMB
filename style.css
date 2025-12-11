@@ -487,4 +487,24 @@ footer .container {
 .instagram-highlight:hover {
     background-color: #f0f0f0; /* Sedikit abu-abu saat disentuh */
     color: #000000 !important;
+
+}
+
+/* Penyesuaian Ukuran Tombol CTA Navbar untuk Layar Kecil (Mobile) */
+@media (max-width: 600px) {
+    .cta-button {
+        /* Padding yang lebih kecil untuk layar mobile */
+        padding: 6px 10px; 
+        /* Ukuran font yang lebih kecil agar teks tetap muat */
+        font-size: 14px; 
+    }
+}
+
+/* Penyesuaian untuk Layar PC/Desktop (Opsional, untuk ukuran yang lebih besar) */
+@media (min-width: 1024px) {
+    .cta-button {
+        /* Padding sedikit lebih besar untuk layar yang luas */
+        padding: 10px 20px; 
+        font-size: 16px;
+    }
 }
